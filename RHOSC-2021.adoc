@@ -1,0 +1,74 @@
+Red Hat Open Source Contest
+----------------------------
+*_Project Start Date - 14/04/2021_ 
+
+I am Anand and here in this blog post I want to share my learnings and experience of participating in RHOSC, this is to create  awareness among other interested candidates to make their open-source contribution with Red Hat
+
+*About RHOSC*
+
+It is a competition for students where one can work on open-source projects. Students can also get feedback on their code and get it included in a real project. Here Participants work with one of the Red Hat mentors. Participants select the project as per their interest by selecting the mentor from the list of projects.
+_One can apply to RHOSC https://research.redhat.com/red-hat-open-source-contest/[*here*^]_
+
+
+*Here is my journey with RHOSC*,
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+When I went through the list of projects mentioned above, I was interested in the grenade bug fix project under https://www.linkedin.com/in/martin-kopec-07b29096/[Martin Kopec^] .The reason behind my selection is that I had previously worked on some projects in ML Domain I wanted to explore and learn more on testing and python, This is also my first open-source contribution
+
+*Basics for open-source contribution*
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+*About https://docs.openstack.org/contributors/common/introduction.html[OpenStack^]*
+
+It is an open-source platform that uses pooled virtual resources to build and manage private and public clouds. The tools that comprise the OpenStack platform, called "projects," handle the core cloud-computing services of computing, networking, storage, identity, and image services.
+
+
+* Since I was circuit branch, I started to learn from scratch, the first thing to learn to contribute to open-source requires git knowledge, so I became familiar with basic git commands and https://docs.openstack.org/contributors/common/git.html#footers[commit messages^]
+Gerrit is the review system the OpenStack community uses,  https://docs.openstack.org/contributors/common/setup-gerrit.html[Gerrit account^] is essential to push the changes to the project and https://docs.openstack.org/contributors/code-and-documentation/using-gerrit.html[this^] is how you use Gerrit
+the whole Gerrit workflow documented https://docs.opendev.org/opendev/infra-manual/latest/developers.html#starting-work-on-a-new-project[here^]
+
+*https://tox.readthedocs.io/en/latest/[tox^]* aims to automate and standardize testing in Python. It checks that the package installs correctly with different Python versions and interpreters
+and helps in running your tests in each of the environments, configuring your test tool of choice
+
+
+*Contributions*
+^^^^^^^^^^^^^^
+
+In the beginning, I was learning the basics of git, Gerrit and setting the required accounts. Martin shared with me some resources to learn like getting started with how to contribute to open-source and the tools required
+
+
+*My first project was on https://bugs.launchpad.net/grenade/+bug/1832367[Grenade bug fix^]*
+
+*  This task was to initiate and help me with the git, tox installation and usage and Gerrit workflow. I also came to know that even a small change holds good since it inspires many others to make even a better chance. What I liked about the collaborative efforts on an open-source project.
+
+*My second task was on  https://github.com/tox-dev/tox/blob/master/docs/changelog.rst#v3180-2020-07-23[Tox bump ^]due to diversity changes*
+
+* By contributing to these projects,it helped me to become accustomed to git merging, rebase, git commit messages and to the gerrit review system as well, these things helped me to increase my confidence level.
+
+*My third task was on a similar line i.e to adapt to new changes in the setuptools package*
+
+* These were trivial changes made to the project but it helped me get used to the system, by end of the project I had more understanding of the tox, there were some basic error messages associated with it, I was able to debug these locally.
+
+*The fourth project was on https://opendev.org/openstack/tempest[OpenStack/tempest^]*
+
+* My work was to check whether all tempest plugins are compatible with the master version of the tempest as per the steps mentioned 
+https://opendev.org/openstack/tempest/src/branch/master/tools/tempest-plugin-sanity.sh[here^].
+As I was running a virtual environment on windows I ran into system dependency issues
+
+* Then I installed Linux based mint os with the help of Martin and then I was able to set up the project and required environment on mint os. In this, I was able to learn about Linux commands which I didn't know before. This was the time consuming one but helped in the understanding of analysing the sanity checks and why they are failing, and also deprecating some of the projects. This project is still in progress since there is a problem with the dependencies of one of the plugins.
+
+*The fifth project was on https://etherpad.opendev.org/p/enkM4eeDHObSloTjPGAu[Migrate to stestr^]*
+
+* I volunteered to do this project since stestr was not backwards compatible with testrepository I learnt here to see through different aspects of the projects and improved my understanding of _.gitignore_,_ test-requirements.txt_ & _tox.ini_ files,It also improved my coding practice
+
+
+
+*Experience*
+^^^^^^^^^^^
+
+* Experience In RHOSC was great and full of learning. Initially, I did not know the basics of contributing to open-source or even the git tools, to be frank, but Martin helped me and taught me at every point where I required assistance in the best possible manner, he even solved the silliest question I had. RHOSC has helped me to upgrade my knowledge. I feel excited to contribute more to the open-source projects. I hope I will get a chance to work with Red Hat again.
+
+I think there need not be any change in the RHOSC as it was well planned and executed well.
+
+*Thank you for the opportunity*,
+
